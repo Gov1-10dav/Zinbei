@@ -1,0 +1,216 @@
+@import url('https://fonts.google.com/specimen/Lora?preview.text=Wix%20Madefor%20Display&preview.text_type=custom&query=Lora');
+
+body {
+    font-family: Lora, serif;
+    background: linear-gradient(100deg, #428f62 0%, #31633a 100%);
+    cursor: url('sourse/files/copy_100163.png') pointer;
+}
+
+p {
+   color: rgb(162, 247, 183);
+   font-size: 25px;
+}
+
+.nav-item{
+    display: inline-block;
+    font-size: 28px;
+}
+
+.nav-item:hover {
+    transform: scale(1.1);
+}
+
+.border-line{
+    border-bottom-style: solid;
+    border-width: 10px;
+}
+
+.nav-link {
+    color: aquamarine;
+    padding-top: 5px
+}
+
+.navbar-nav .nav-link.active {
+    color: aqua;
+}
+
+.navbar-brand img {
+    width: 45px;
+}
+
+.navbar-toggler {
+    background-color: linear-gradient(100deg, #46796c 0%, #45814a 100%);
+}
+
+.border-style {
+    border-style: solid;
+    border-color: rgb(69, 202, 136);
+    border-width: 9px;
+}
+
+.border-style1 {
+    border-right: solid;
+    border-color: rgb(69, 202, 136);
+    border-width: 9px;
+}
+
+.sidebar {
+    color: aquamarine;
+    background: linear-gradient(200deg, #46796c 0%, #45814a 100%);
+}
+
+.card {
+    background: linear-gradient(100deg, #428f62 0%, #31633a 100%);
+    color: aquamarine;
+}
+
+.card a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.slide-text,
+.footer-text {
+    color: aquamarine;
+    margin: auto auto;
+}
+
+footer,
+.btn-outline-success {
+    background: linear-gradient(210deg, #46796c 0%, #45814a 100%);
+    border-color: rgb(9, 194, 132);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+    animation: call 2s ease 0s infinite normal forwards;
+}
+
+.animation-pic {
+    padding-bottom: 20px;
+}
+
+.iconki-vnizy {
+    justify-content: center;
+    display: flex;
+    padding:  6px 12px;
+    background-color: #212529;
+}
+
+.iconki-vnizy1 {
+    padding-right: 50px ;
+}
+
+.iconki-vnizy2 {
+    justify-content: center;
+}
+
+.iconki-vnizy3 {
+    padding-left: 50px;
+}
+
+.info-text {
+    font-size: 20px;
+    display: inline-flex;
+}
+
+.info-text1 {
+    padding-right: 20px;
+}
+
+.info-text3 {
+    padding-left: 20px;
+}
+
+.link-footer {
+    text-decoration: none;
+    color: rgb(162, 247, 183);
+}
+
+.link-footer:hover {
+    color: rgb(66, 175, 93);
+}
+
+.link-footer:active {
+    color: aquamarine;
+}
+
+.color-footer-info-text {
+    background-color: #212529;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               
+  }
+  body::-webkit-scrollbar-track {
+    background: #315c35
+  }
+  body::-webkit-scrollbar-thumb {
+    border-radius: 20px;       
+    background-color: #212529;
+  }
+
+
+@keyframes call {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+@media (max-width: 990px) {
+    .nav-item:hover {
+        transform: none;
+    }
+}
+
+@media (max-width: 1380px) {
+    .border-style1 {
+        border-right: solid;
+        border-bottom: solid;
+        border-color: rgb(69, 202, 136);
+        border-width: 9px;
+    }
+}
+
+@media (max-width: 991px) {
+    .border-style1 {
+        border-right: solid;
+        border-bottom: none;
+        border-color: rgb(69, 202, 136);
+        border-width: 9px;
+    }
+}
+
+@media (max-width: 767px) {
+    .border-style1 {
+        border-right: none;
+        border-bottom: solid;
+        border-color: rgb(69, 202, 136);
+        border-width: 9px;
+    }
+}
+
+@media (max-width: 323px) {
+    .iconki-vnizy {
+        justify-content: none;
+        display: none
+}
+}
