@@ -1,7 +1,4 @@
-## Мой проект
 
--Это мой первый проект который будет ещё доробатываться [Link](https://gov1-10dav.github.io/Zinbei/)
--Пользовался BootStrap5 элементами; Html,Css,Js кодом.
 
 ![image](https://github.com/Gov1-10dav/Zinbei/assets/117928126/9b2e8e2c-a70f-423f-89e4-556f5cd25b85)
 ![image](https://github.com/Gov1-10dav/Zinbei/assets/117928126/9743f001-7de5-49cc-b17f-fc60005f11db)
